@@ -45,7 +45,7 @@ Found a bug or have an idea to improve this site? Contributions are welcome!
 
 ---
 
-## 📜 License
+## License
 This project is licensed under the **[MIT License](LICENSE)**.
 
 ---
