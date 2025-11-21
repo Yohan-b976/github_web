@@ -1,6 +1,6 @@
 # Yohan Beaumatin - About Me
 
-**[Visit my website](https://yohan-b976.github.io/Yohan-b976/)**
+**[Visit my website](https://yohan-b976.github.io/github_web/)**
 
 Welcome to my personal website! This space is dedicated to showcasing my work, projects, and credentials as a **3rd-year engineering student at [AgroParisTech](https://www.agroparistech.fr/)**. My interests lie at the intersection of **bioinformatics**, **data science**, and **software engineering**
 
