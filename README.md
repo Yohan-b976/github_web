@@ -30,7 +30,7 @@ Welcome to my personal website! This space is dedicated to showcasing my work, p
 
 - **Previous Education**
   - **Preparatory Classes** (2021–2023)
-    Intensive training in mathematics, physics, and engineering sciences.
+    Intensive training in biology, mathematics, physics and chemistry.
 
 ---
 
