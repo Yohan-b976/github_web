@@ -18,74 +18,70 @@
         <a href="contact.html">Contact</a>
     </nav>
 
-    <main>
-        <h1 class="h1_soul">Descriptions et présentations de mes projets</h1>
+<main>
+    <div class="project">
+        <h2>Projet 4 : RNA-seq Reproducibility Pipeline (Nextflow + Docker)</h2>
+        <p>
+          Ce dépôt contient un pipeline Nextflow DSL2 entièrement reproductible permettant de reproduire l'analyse RNA-seq décrite dans l'article :
 
-        <div class="project">
-            
-            <h2>Projet 1 : Simulation d'infection du VIH au sein d'une population de cellule</h2>
-               <p>
-                   Ce projet a pour objectif de simuler les dynamiques d'infection
-                   du VIH sauvage (WT) et de mutants au niveau de la protéine Gag, moins infectieux 
-                   , dans une culture de cellules MT4.  
-                   Il inclut également l'étude de l'impact potentiel de la transfection
-                   de LysRS portant une mutation compensatoire, pouvant moduler le pouvoir
-                   infectieux des mutants du VIH.<br>  
-                   Le projet a été réalisé en Python et vise à produire des prédictions sur la dynamique virale
-                   lorsque la mutation compensatoire influence la propagation du VIH mutant.
-              </p>
-            <div class="buttons">
-                <a href="Simulation_infection.pptx" download class="btn">Télécharger le diaporama</a>
-                <a
-                href="https://github.com/Yohan-b976/HIV-spread-in-transfected-cell-cultures/tree/main/Simulation/Dossier%20final%20Marc"
-                target="_blank" class="btn secondary">🔗 Voir sur GitHub
-                </a>
-            </div>
+          Nature Communications (2020) “Intracellular Staphylococcus aureus persisters upon antibiotic exposure.”
+
+          Le pipeline suit les étapes : FASTQ → trimming → download du génome → indexation → alignement → comptage → analyse différentielle.
+        </p>
+        <div class="buttons">
+            <a href="https://github.com/Yohan-b976/rna-seq-s-aureus-persisters.git" target="_blank" class="btn secondary">🔗 Voir sur GitHub</a>
         </div>
+    </div>
 
-        <div class="project">
-            <h2>Projet 2 : Single cell Omics, traitement intégratif des données scRNA-seq et scProtéomiques</h2>
-            <p>
-              Conception de workflows pour le prétraitement la normalisation et l’exploration de données
-              transcriptomiques et protéomiques
-              Identification de signatures biologiques par intégration de données haute dimension
-              Utilisation d’outils de deep learning dont SCVI pour modéliser et analyser les données cellulaires
-            </p>
-            <div class="buttons">
-                <a href="projets.html" download class="btn">Télécharger le diaporama pas disponible</a>
-                <a href="projets.html" target="_blank" class="btn secondary">🔗 Non visible sur GitHub</a>
-            </div>
+    <div class="project">
+        <h2>Projet 3 : Projet de ML sur des bases de données Kaggles</h2>
+        <p>
+          Ce dépôt contient deux notebooks Jupyter dédiés à des projets de machine learning utilisant des jeux de données Kaggle :
+          Classification d'objets géocroiseurs de la NASA (Near-Earth Objects)
+          Prédiction des coûts d'assurance médicale
+          Chaque projet couvre le prétraitement des données, l'entraînement de modèles, leur évaluation et la visualisation des résultats.
+        </p>
+        <div class="buttons">
+            <a href="https://github.com/Yohan-b976/ML-Project-using-Kaggle-datasets.git" target="_blank" class="btn secondary">🔗 Voir sur GitHub</a>
         </div>
+    </div>
 
-
-
-        <div class="project">
-            <h2>Projet 3 : Projet de ML sur des bases de données Kaggles</h2>
-            <p>
-              Ce dépôt contient deux notebooks Jupyter dédiés à des projets de machine learning utilisant des jeux de données Kaggle :
-              Classification d'objets géocroiseurs de la NASA (Near-Earth Objects)
-              Prédiction des coûts d'assurance médicale
-              Chaque projet couvre le prétraitement des données, l'entraînement de modèles, leur évaluation et la visualisation des résultats.
-            </p>
-            <div class="buttons">
-                <a href="https://github.com/Yohan-b976/ML-Project-using-Kaggle-datasets.git" target="_blank" class="btn secondary">🔗 Voir sur GitHub</a>
-            </div>
+    <div class="project">
+        <h2>Projet 2 : Single cell Omics, traitement intégratif des données scRNA-seq et scProtéomiques</h2>
+        <p>
+          Conception de workflows pour le prétraitement la normalisation et l’exploration de données
+          transcriptomiques et protéomiques
+          Identification de signatures biologiques par intégration de données haute dimension
+          Utilisation d’outils de deep learning dont SCVI pour modéliser et analyser les données cellulaires
+        </p>
+        <div class="buttons">
+            <a href="projets.html" download class="btn">Télécharger le diaporama pas disponible</a>
+            <a href="projets.html" target="_blank" class="btn secondary">🔗 Non visible sur GitHub</a>
         </div>
+    </div>
 
-        <div class="project">
-            <h2>Projet 4 : RNA-seq Reproducibility Pipeline (Nextflow + Docker)</h2>
-            <p>
-              Ce dépôt contient un pipeline Nextflow DSL2 entièrement reproductible permettant de reproduire l'analyse RNA-seq décrite dans l'article :
-
-              Nature Communications (2020) “Intracellular Staphylococcus aureus persisters upon antibiotic exposure.”
-
-              Le pipeline suit les étapes : FASTQ → trimming → download du génome → indexation → alignement → comptage → analyse différentielle.
-            </p>
-            <div class="buttons">
-                <a href="https://github.com/Yohan-b976/rna-seq-s-aureus-persisters.git" target="_blank" class="btn secondary">🔗 Voir sur GitHub</a>
-            </div>
+    <div class="project">
+        <h2>Projet 1 : Simulation d'infection du VIH au sein d'une population de cellule</h2>
+           <p>
+               Ce projet a pour objectif de simuler les dynamiques d'infection
+               du VIH sauvage (WT) et de mutants au niveau de la protéine Gag, moins infectieux 
+               , dans une culture de cellules MT4.  
+               Il inclut également l'étude de l'impact potentiel de la transfection
+               de LysRS portant une mutation compensatoire, pouvant moduler le pouvoir
+               infectieux des mutants du VIH.<br>  
+               Le projet a été réalisé en Python et vise à produire des prédictions sur la dynamique virale
+               lorsque la mutation compensatoire influence la propagation du VIH mutant.
+          </p>
+        <div class="buttons">
+            <a href="Simulation_infection.pptx" download class="btn">Télécharger le diaporama</a>
+            <a
+            href="https://github.com/Yohan-b976/HIV-spread-in-transfected-cell-cultures/tree/main/Simulation/Dossier%20final%20Marc"
+            target="_blank" class="btn secondary">🔗 Voir sur GitHub
+            </a>
         </div>
-    </main>
+    </div>
+</main>
+
 
     <footer>
         <p>&copy; 2025 Yohan Beaumatin – Tous droits réservés</p>
