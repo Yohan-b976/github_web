@@ -17,7 +17,7 @@ Ce site centralise mes informations professionnelles afin de faciliter le partag
 
 ## Accès au site
 
-👉 [Visiter mon site web](https://yohan-b976.github.io/github_web/)
+[Visiter mon site web](https://yohan-b976.github.io/github_web/)
 
 ---
 
